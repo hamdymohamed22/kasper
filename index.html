@@ -19,7 +19,8 @@
           <img src="logo.png" alt="Logo" />
         </a>
         <nav>
-          <i class="fas fa-bars toggle-menu"></i>
+          <span class="close_menu">x</span>
+          <i class="fas fa-bars toggle_menu"></i>
           <ul>
             <li><a class="active" href="#">Home</a></li>
             <li><a href="#services">Services</a></li>
@@ -37,6 +38,11 @@
     <!-- End Header -->
     <!-- Start Landing -->
     <div class="landing">
+      <!-- <div class="backg_box">
+        <img src="/shuffle-03.jpg" alt="" data-bg = "1">
+        <img src="/shuffle-01.jpg" alt="" data-bg = "2">
+        <img src="/shuffle-03.jpg" alt="" data-bg = "3">
+      </div> -->
       <div class="overlay"></div>
       <div class="text">
         <div class="content">
@@ -51,8 +57,8 @@
           </p>
         </div>
       </div>
-      <i class="fas fa-angle-left change-background fa-2x"></i>
-      <i class="fas fa-angle-right change-background fa-2x"></i>
+      <i class="fas fa-angle-left change-background fa-2x prev" ></i>
+      <i class="fas fa-angle-right change-background fa-2x next"></i>
       <ul class="bullets">
         <li></li>
         <li class="active"></li>
@@ -151,56 +157,56 @@
       </div>
       <div class="imgs-container">
         <div class="box">
-          <img src="shuffle-01.jpg" alt="" />
+          <img src="shuffle-01.jpg" alt="" data-cont="App" />
           <div class="caption">
             <h4>Awesome Image</h4>
             <p>Photography</p>
           </div>
         </div>
         <div class="box">
-          <img src="shuffle-02.jpg" alt="" />
+          <img src="shuffle-02.jpg" alt="" data-cont="App" />
           <div class="caption">
             <h4>Awesome Image</h4>
             <p>Photography</p>
           </div>
         </div>
         <div class="box">
-          <img src="shuffle-03.jpg" alt="" />
+          <img src="shuffle-03.jpg" alt="" data-cont="web" />
           <div class="caption">
             <h4>Awesome Image</h4>
             <p>Photography</p>
           </div>
         </div>
         <div class="box">
-          <img src="shuffle-04.jpg" alt="" />
+          <img src="shuffle-04.jpg" alt="" data-cont="web" />
           <div class="caption">
             <h4>Awesome Image</h4>
             <p>Photography</p>
           </div>
         </div>
         <div class="box">
-          <img src="shuffle-05.jpg" alt="" />
+          <img src="shuffle-05.jpg" alt=""  data-cont="Print" />
           <div class="caption">
             <h4>Awesome Image</h4>
             <p>Photography</p>
           </div>
         </div>
         <div class="box">
-          <img src="shuffle-06.jpg" alt="" />
+          <img src="shuffle-06.jpg" alt=""  data-cont="Print"/>
           <div class="caption">
             <h4>Awesome Image</h4>
             <p>Photography</p>
           </div>
         </div>
         <div class="box">
-          <img src="shuffle-07.jpg" alt="" />
+          <img src="shuffle-07.jpg" alt=""  data-cont="Photo"/>
           <div class="caption">
             <h4>Awesome Image</h4>
             <p>Photography</p>
           </div>
         </div>
         <div class="box">
-          <img src="shuffle-08.jpg" alt="" />
+          <img src="shuffle-08.jpg" alt=""  data-cont="App"/>
           <div class="caption">
             <h4>Awesome Image</h4>
             <p>Photography</p>
@@ -454,9 +460,12 @@
           <i class="fas fa-home"></i>
           <i class="fab fa-linkedin"></i>
         </div>
-        <p class="copyright">&copy; 2021 <span>Kasper</span> All Right Reserved Created By Hamdy Mohamed</p>
+        <p class="copyright">&copy; 2021 <span>Kasper</span> All Right Reserved </p>
+        <div> Redesign By Hamdy Mohamed </div>
       </div>
     </div>
+    <div class="top_btn">UP</div>
     <!-- End Footer -->
+    <script src="/index.js"></script>
   </body>
 </html>
